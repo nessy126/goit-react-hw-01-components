@@ -1,0 +1,35 @@
+table {
+  table-layout: fixed;
+  background-color: #fff;
+  // width: 450;
+  border-collapse: collapse;
+  border: 1px solid rgb(172, 172, 172);
+}
+
+thead th:nth-child(1) {
+  width: 33%;
+}
+
+thead th:nth-child(2) {
+  width: 33%;
+}
+
+thead th:nth-child(3) {
+  width: 33%;
+}
+
+
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid rgb(194, 194, 194);
+}
+
+thead {
+  background-color: rgb(25, 186, 226);
+}
+
+tr:nth-child(2n) {
+  background-color: rgb(233, 233, 233);
+}
